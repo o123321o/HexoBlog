@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rhino&#39;s Field</title>
+  <subtitle>碎言细语</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.yingming.li/"/>
+  <updated>2017-06-27T09:55:31.289Z</updated>
+  <id>http://www.yingming.li/</id>
+  
+  <author>
+    <name>Liam Lee</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>活着</title>
+    <link href="http://www.yingming.li/2017/06/27/%E6%B4%BB%E7%9D%80/"/>
+    <id>http://www.yingming.li/2017/06/27/活着/</id>
+    <published>2017-06-27T01:43:19.000Z</published>
+    <updated>2017-06-27T09:55:31.289Z</updated>
+    
+    <content type="html"><![CDATA[<p>还可以嗑着瓜子喝着小酒，躺在沙发上看漏洞百出的剧集……<br><a id="more"></a><br>活着，罪过！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;还可以嗑着瓜子喝着小酒，躺在沙发上看漏洞百出的剧集……&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="http://www.yingming.li/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="http://www.yingming.li/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+</feed>
