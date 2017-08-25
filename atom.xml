@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yingming.li/"/>
-  <updated>2017-06-29T11:00:32.479Z</updated>
+  <updated>2017-08-25T01:55:06.869Z</updated>
   <id>http://www.yingming.li/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Nodejs门外汉排查内存占用问题</title>
+    <link href="http://www.yingming.li//blog/2017/08/Nodejs%E9%97%A8%E5%A4%96%E6%B1%89%E6%8E%92%E6%9F%A5%E5%86%85%E5%AD%98%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98.html"/>
+    <id>http://www.yingming.li//blog/2017/08/Nodejs门外汉排查内存占用问题.html</id>
+    <published>2017-08-24T17:39:36.000Z</published>
+    <updated>2017-08-25T01:55:06.869Z</updated>
+    
+    <content type="html"><![CDATA[<p>收到短息通知有台服务器内存占用频繁超过80%，登录后检查发现nodejs这个进程占用了50%的内存空间一直没有释放。从来没有接触过NodeJs的门外汉开始了排查之旅……从服务启动到脚本内存泄漏，最终解决特别无厘头！<br>记录几点：<br>1 forever list 需要用root用户查看，sudo不显示进程<br>2 脚本发布和部署前检查一下用于调试和log的语句，此次问题就是console.log输出导致的</p>
+<p>NodeJs这么火，是不是需要学习一下呢？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;收到短息通知有台服务器内存占用频繁超过80%，登录后检查发现nodejs这个进程占用了50%的内存空间一直没有释放。从来没有接触过NodeJs的门外汉开始了排查之旅……从服务启动到脚本内存泄漏，最终解决特别无厘头！&lt;br&gt;记录几点：&lt;br&gt;1 forever list 需要
+    
+    </summary>
+    
+      <category term="技术" scheme="http://www.yingming.li/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="NodeJs" scheme="http://www.yingming.li/tags/NodeJs/"/>
+    
+  </entry>
   
   <entry>
     <title>迁移到Coding</title>
