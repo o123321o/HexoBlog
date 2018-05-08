@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yingming.li/"/>
-  <updated>2017-09-13T02:40:09.980Z</updated>
+  <updated>2018-05-08T08:03:20.543Z</updated>
   <id>http://www.yingming.li/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>有猪一头</title>
+    <link href="http://www.yingming.li//blog/2018/05/%E6%9C%89%E7%8C%AA%E4%B8%80%E5%A4%B4.html"/>
+    <id>http://www.yingming.li//blog/2018/05/有猪一头.html</id>
+    <published>2018-05-07T23:57:33.000Z</published>
+    <updated>2018-05-08T08:03:20.543Z</updated>
+    
+    <content type="html"><![CDATA[<p>过猪一样的日子和跟猪一起过日子，请选择！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;过猪一样的日子和跟猪一起过日子，请选择！&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="生活" scheme="http://www.yingming.li/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活 日常" scheme="http://www.yingming.li/tags/%E7%94%9F%E6%B4%BB-%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>Self Management</title>
