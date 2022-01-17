@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rhino&#39;s Field</title>
+  
+  <subtitle>����ϸ��</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2018-05-08T08:03:20.543Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Liam Lee</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>有猪一头</title>
+    <link href="http://example.com/2018/05/08/2018-05-08-%E6%9C%89%E7%8C%AA%E4%B8%80%E5%A4%B4/"/>
+    <id>http://example.com/2018/05/08/2018-05-08-%E6%9C%89%E7%8C%AA%E4%B8%80%E5%A4%B4/</id>
+    <published>2018-05-08T07:57:33.000Z</published>
+    <updated>2018-05-08T08:03:20.543Z</updated>
+    
+    <content type="html"><![CDATA[<p>过猪一样的日子和跟猪一起过日子，请选择！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;过猪一样的日子和跟猪一起过日子，请选择！&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="生活 日常" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB-%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Self Management</title>
+    <link href="http://example.com/2017/09/12/2017-09-12-Self-Management/"/>
+    <id>http://example.com/2017/09/12/2017-09-12-Self-Management/</id>
+    <published>2017-09-12T02:54:30.000Z</published>
+    <updated>2017-09-13T02:40:09.981Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>坚持运动： Not Bad 每天一万步，隔天一个五公里快步走</li><li>坚持阅读： Poor 一本六百页的技术教程一个月了才看了两百页</li><li>不要抱怨： Poor 每天还是各种抱怨</li><li>投资自己： Poor 幻想总是比计划多，计划总是比执行多</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;坚持运动： Not Bad 每天一万步，隔天一个五公里快步走&lt;/li&gt;
+&lt;li&gt;坚持阅读： Poor 一本六百页的技术教程一个月了才看了两百页&lt;/li&gt;
+&lt;li&gt;不要抱怨： Poor 每天还是各种抱怨&lt;/li&gt;
+&lt;li&gt;投资自己： Poor 幻想总是比计划多，计</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="生活 日常" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB-%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Phoenix Project</title>
+    <link href="http://example.com/2017/09/03/2017-09-03-The-Phoenix-Project/"/>
+    <id>http://example.com/2017/09/03/2017-09-03-The-Phoenix-Project/</id>
+    <published>2017-09-03T02:53:22.000Z</published>
+    <updated>2017-09-13T02:33:53.492Z</updated>
+    
+    <content type="html"><![CDATA[<p>受之前任职我所在公司的合作搭档老曹的邀请，非常幸运地报名参加了其组织的《凤凰项目》的沙盘演练活动，近距离地感受 DevOps 的理念，体会精益文化。现就活动的一些感受做一些回顾，以期有更多的收益。<br>活动时间：2017年9月2日<br>活动地点：南山智园A3栋8楼<br>参与人员：报名12人，实到9人，外加主持人和助教共11人。<br><img src="http://img.yingming.li/image/jpg/201709/IMG_20170902_091843.jpg?imageslim" alt="Phoenix Project"></p><span id="more"></span><p>之前没有接触过DevOps，只是在一些活动和文章里偶有遇到，印像中认为DevOps就是“开发”+“运维”，即单纯的测试运维自动化。经过一轮沙盘演练下来，有了进一步的认识：DevOps是一种跨团队的团队协作文化，在保证业务连续性(Business Continuity) 的前提下，实现持续集成(Continuous Integration)、持续交付(Continuous Delivery)的要求，最终实现提升业务产量(Business Outcome)的目标。</p><ol><li>活动进程<br>这里赞扬一下老曹的场地和准备工作，智园环境优美大气，前几年每个周末乘坐地铁去西丽北大踢球的时候路过塘朗山此处刚刚开始兴建，现在已然是一个高技术产业园区了，活动现场老曹还准备了丰富的水果零食，活动之前就早早做好了各项准备工作。活动计划于9点钟准时开始，分四个阶段进行，每阶段又分计划、实施、打分、总结，每个阶段的总结部分，大家都能对上一阶段的问题进行充分的发掘，一部分会在下一阶段中得到较大改善，部分问题还是会持续存在。因部分参与人员迟到原因，活动近十点钟方才正式开始，守时应当是一个基本素养，IT项目中守时已然成为了一种奢望。</li><li>人员职责<br>活动角色分为CEO、CISO、CIO、CFO、Retail Operation、Human Resources、VP of IT Operation（VP）、Application Department（AD）、IT Support（ITS）、Technology Operation（TO）、Lead Engineer（LE）、IT Test Team（ITT）、Change Management（CM），每个参与者分担一个角色，每个角色的承载量（Workload）是有限的，可以通过互相培训，将工作交由其他角色执行。<br><img src="http://img.yingming.li/image/jpg/201709/IMG_20170902_133436.jpg?imageslim" alt="Phoenix Project"><br>个人感觉这个活动成败的一个关键点就在人员职责这里，明确职责，互相配合。一上来没有搞清楚规则和职责所有人陷入了一团嘈杂的讨论和无所适从的境况，IT Operation部门的伙伴比较茫然，浪费了大半的工作量。几回合的过程中领导力和执行力都没有得到良好的体现，决策层不能做好计划决策做什么，执行层不能有效地响应和反馈，在沟通和信息传递中出现纰漏，表现为几个方面：</li><li>1 业务决策对任务的优先级不能及时调整，对凤凰项目的保证不够</li><li>2 购买训练卡后多次提示培训，承载最受限的ITS、TO、LE三部门均没有积极响应扩容培训，也没有应用其他培训业务，表现为执行不够，合作欠缺，整个过程最大的瓶颈点就在LE，没有尽早地实现知识共享和培训，扩充资源池</li><li>3 信息传递失效，一项业务需要其他部门继续执行的时候其他部门不能正确获得消息并执行，同时当决策层撤销某个任务时，后续部门并没有跟进撤销，导致前序工作撤销后续没有撤销，浪费并不充足的承载。在各部门不能正确有效履行自己职责的时候，需要强有力的领导者和负责验收的把关人，ITT部门是可以对所有操作流程进行确认的，没有及时给予反馈</li><li>工具与效率<br>流程和工具在实际的操作中对效率是极大的保障和提高，在此次活动中切实深有体会。One Piece Flow保证了业务能有效的执行，产品能有效交付，不是全是半成品。工作中，提前考虑“瓶颈”问题，减少制约，通过培训、工作流程的标准化等方式，减轻瓶颈的压力可以提升团队的整体工作能力。看板的应用，将任务、流程和进度可视化，可以直观衡量和确认每个项目在每个部门需要的人天及项目进度。便于决策去权衡该做哪些项目，该放弃哪些项目，做出取舍，以及ITT检查项目进度。针对此次活动还有很多各种各样的小技巧，在辅助梳理逻辑和相关联任务中有极大帮助。<br><img src="http://img.yingming.li/image/jpg/201709/IMG_20170902_170222.jpg?imageslim" alt="Phoenix Project"></li></ol><p>《凤凰项目》沙盘演练需要所有人员的主动参与，积极响应，强调团队配合。需要在不同阶段权衡工作之间的关系，保证整个公司层面长期的权益。非常感谢老曹组织的这场活动，以及在活动中作为主持人对项目的介绍解说和帮助大家总结，以及感谢王大胡子助教的指导和DevOps实战分享。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;受之前任职我所在公司的合作搭档老曹的邀请，非常幸运地报名参加了其组织的《凤凰项目》的沙盘演练活动，近距离地感受 DevOps 的理念，体会精益文化。现就活动的一些感受做一些回顾，以期有更多的收益。&lt;br&gt;活动时间：2017年9月2日&lt;br&gt;活动地点：南山智园A3栋8楼&lt;br&gt;参与人员：报名12人，实到9人，外加主持人和助教共11人。&lt;br&gt;&lt;img src=&quot;http://img.yingming.li/image/jpg/201709/IMG_20170902_091843.jpg?imageslim&quot; alt=&quot;Phoenix Project&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="DevOps" scheme="http://example.com/tags/DevOps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nodejs门外汉排查内存占用问题</title>
+    <link href="http://example.com/2017/08/25/2017-08-25-Nodejs%E9%97%A8%E5%A4%96%E6%B1%89%E6%8E%92%E6%9F%A5%E5%86%85%E5%AD%98%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/"/>
+    <id>http://example.com/2017/08/25/2017-08-25-Nodejs%E9%97%A8%E5%A4%96%E6%B1%89%E6%8E%92%E6%9F%A5%E5%86%85%E5%AD%98%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/</id>
+    <published>2017-08-25T01:39:36.000Z</published>
+    <updated>2017-08-25T01:55:06.870Z</updated>
+    
+    <content type="html"><![CDATA[<p>收到短息通知有台服务器内存占用频繁超过80%，登录后检查发现nodejs这个进程占用了50%的内存空间一直没有释放。从来没有接触过NodeJs的门外汉开始了排查之旅……从服务启动到脚本内存泄漏，最终解决特别无厘头！<br>记录几点：<br>1 forever list 需要用root用户查看，sudo不显示进程<br>2 脚本发布和部署前检查一下用于调试和log的语句，此次问题就是console.log输出导致的</p><p>NodeJs这么火，是不是需要学习一下呢？</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;收到短息通知有台服务器内存占用频繁超过80%，登录后检查发现nodejs这个进程占用了50%的内存空间一直没有释放。从来没有接触过NodeJs的门外汉开始了排查之旅……从服务启动到脚本内存泄漏，最终解决特别无厘头！&lt;br&gt;记录几点：&lt;br&gt;1 forever list 需要</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="NodeJs" scheme="http://example.com/tags/NodeJs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>迁移到Coding</title>
+    <link href="http://example.com/2017/06/29/2017-06-29-%E8%BF%81%E7%A7%BB%E5%88%B0Coding/"/>
+    <id>http://example.com/2017/06/29/2017-06-29-%E8%BF%81%E7%A7%BB%E5%88%B0Coding/</id>
+    <published>2017-06-29T10:47:27.000Z</published>
+    <updated>2017-06-29T11:00:32.480Z</updated>
+    
+    <content type="html"><![CDATA[<p>github国内访问太慢了，先迁移到Coding，最怕写文字的淫，100M真的足够用很久了……</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;github国内访问太慢了，先迁移到Coding，最怕写文字的淫，100M真的足够用很久了……&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>活着</title>
+    <link href="http://example.com/2017/06/27/2017-06-27-%E6%B4%BB%E7%9D%80/"/>
+    <id>http://example.com/2017/06/27/2017-06-27-%E6%B4%BB%E7%9D%80/</id>
+    <published>2017-06-27T09:43:19.000Z</published>
+    <updated>2017-06-28T05:31:42.290Z</updated>
+    
+    <content type="html"><![CDATA[<p>还有闲暇可以嗑着瓜子喝着小酒，躺在沙发上看漏洞百出的剧集……</p><span id="more"></span><p>活着，罪过！</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;还有闲暇可以嗑着瓜子喝着小酒，躺在沙发上看漏洞百出的剧集……&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+</feed>

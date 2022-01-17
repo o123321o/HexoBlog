@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.0.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<meta name="description" content="受之前任职我所在公司的合作搭档老曹的邀请，非常幸运地报名参加了其组织的《凤凰项目》的沙盘演练活动，近距离地感受 DevOps 的理念，体会精益文化。现就活动的一些感受做一些回顾，以期有更多的收益。活动时间：2017年9月2日活动地点：南山智园A3栋8楼参与人员：报名12人，实到9人，外加主持人和助教共11人。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Phoenix Project">
+<meta property="og:url" content="http://example.com/2017/09/03/2017-09-03-The-Phoenix-Project/index.html">
+<meta property="og:site_name" content="Rhino&#39;s Field">
+<meta property="og:description" content="受之前任职我所在公司的合作搭档老曹的邀请，非常幸运地报名参加了其组织的《凤凰项目》的沙盘演练活动，近距离地感受 DevOps 的理念，体会精益文化。现就活动的一些感受做一些回顾，以期有更多的收益。活动时间：2017年9月2日活动地点：南山智园A3栋8楼参与人员：报名12人，实到9人，外加主持人和助教共11人。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://img.yingming.li/image/jpg/201709/IMG_20170902_091843.jpg?imageslim">
+<meta property="og:image" content="http://img.yingming.li/image/jpg/201709/IMG_20170902_133436.jpg?imageslim">
+<meta property="og:image" content="http://img.yingming.li/image/jpg/201709/IMG_20170902_170222.jpg?imageslim">
+<meta property="article:published_time" content="2017-09-03T02:53:22.000Z">
+<meta property="article:modified_time" content="2017-09-13T02:33:53.492Z">
+<meta property="article:author" content="Liam Lee">
+<meta property="article:tag" content="DevOps">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://img.yingming.li/image/jpg/201709/IMG_20170902_091843.jpg?imageslim">
+
+
+<link rel="canonical" href="http://example.com/2017/09/03/2017-09-03-The-Phoenix-Project/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2017/09/03/2017-09-03-The-Phoenix-Project/","path":"2017/09/03/2017-09-03-The-Phoenix-Project/","title":"The Phoenix Project"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>The Phoenix Project | Rhino's Field</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Rhino's Field" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Rhino's Field</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">����ϸ��</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Liam Lee"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Liam Lee</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/o123321o" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;o123321o" rel="noopener" target="_blank">GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://weibo.com/o123321o" title="Weibo → http:&#x2F;&#x2F;weibo.com&#x2F;o123321o" rel="noopener" target="_blank">Weibo</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2017/09/03/2017-09-03-The-Phoenix-Project/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Liam Lee">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Rhino's Field">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          The Phoenix Project
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2017-09-03 10:53:22" itemprop="dateCreated datePublished" datetime="2017-09-03T10:53:22+08:00">2017-09-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>受之前任职我所在公司的合作搭档老曹的邀请，非常幸运地报名参加了其组织的《凤凰项目》的沙盘演练活动，近距离地感受 DevOps 的理念，体会精益文化。现就活动的一些感受做一些回顾，以期有更多的收益。<br>活动时间：2017年9月2日<br>活动地点：南山智园A3栋8楼<br>参与人员：报名12人，实到9人，外加主持人和助教共11人。<br><img src="http://img.yingming.li/image/jpg/201709/IMG_20170902_091843.jpg?imageslim" alt="Phoenix Project"></p>
+<span id="more"></span>
+<p>之前没有接触过DevOps，只是在一些活动和文章里偶有遇到，印像中认为DevOps就是“开发”+“运维”，即单纯的测试运维自动化。经过一轮沙盘演练下来，有了进一步的认识：DevOps是一种跨团队的团队协作文化，在保证业务连续性(Business Continuity) 的前提下，实现持续集成(Continuous Integration)、持续交付(Continuous Delivery)的要求，最终实现提升业务产量(Business Outcome)的目标。</p>
+<ol>
+<li>活动进程<br>这里赞扬一下老曹的场地和准备工作，智园环境优美大气，前几年每个周末乘坐地铁去西丽北大踢球的时候路过塘朗山此处刚刚开始兴建，现在已然是一个高技术产业园区了，活动现场老曹还准备了丰富的水果零食，活动之前就早早做好了各项准备工作。活动计划于9点钟准时开始，分四个阶段进行，每阶段又分计划、实施、打分、总结，每个阶段的总结部分，大家都能对上一阶段的问题进行充分的发掘，一部分会在下一阶段中得到较大改善，部分问题还是会持续存在。因部分参与人员迟到原因，活动近十点钟方才正式开始，守时应当是一个基本素养，IT项目中守时已然成为了一种奢望。</li>
+<li>人员职责<br>活动角色分为CEO、CISO、CIO、CFO、Retail Operation、Human Resources、VP of IT Operation（VP）、Application Department（AD）、IT Support（ITS）、Technology Operation（TO）、Lead Engineer（LE）、IT Test Team（ITT）、Change Management（CM），每个参与者分担一个角色，每个角色的承载量（Workload）是有限的，可以通过互相培训，将工作交由其他角色执行。<br><img src="http://img.yingming.li/image/jpg/201709/IMG_20170902_133436.jpg?imageslim" alt="Phoenix Project"><br>个人感觉这个活动成败的一个关键点就在人员职责这里，明确职责，互相配合。一上来没有搞清楚规则和职责所有人陷入了一团嘈杂的讨论和无所适从的境况，IT Operation部门的伙伴比较茫然，浪费了大半的工作量。几回合的过程中领导力和执行力都没有得到良好的体现，决策层不能做好计划决策做什么，执行层不能有效地响应和反馈，在沟通和信息传递中出现纰漏，表现为几个方面：</li>
+<li>1 业务决策对任务的优先级不能及时调整，对凤凰项目的保证不够</li>
+<li>2 购买训练卡后多次提示培训，承载最受限的ITS、TO、LE三部门均没有积极响应扩容培训，也没有应用其他培训业务，表现为执行不够，合作欠缺，整个过程最大的瓶颈点就在LE，没有尽早地实现知识共享和培训，扩充资源池</li>
+<li>3 信息传递失效，一项业务需要其他部门继续执行的时候其他部门不能正确获得消息并执行，同时当决策层撤销某个任务时，后续部门并没有跟进撤销，导致前序工作撤销后续没有撤销，浪费并不充足的承载。在各部门不能正确有效履行自己职责的时候，需要强有力的领导者和负责验收的把关人，ITT部门是可以对所有操作流程进行确认的，没有及时给予反馈</li>
+<li>工具与效率<br>流程和工具在实际的操作中对效率是极大的保障和提高，在此次活动中切实深有体会。One Piece Flow保证了业务能有效的执行，产品能有效交付，不是全是半成品。工作中，提前考虑“瓶颈”问题，减少制约，通过培训、工作流程的标准化等方式，减轻瓶颈的压力可以提升团队的整体工作能力。看板的应用，将任务、流程和进度可视化，可以直观衡量和确认每个项目在每个部门需要的人天及项目进度。便于决策去权衡该做哪些项目，该放弃哪些项目，做出取舍，以及ITT检查项目进度。针对此次活动还有很多各种各样的小技巧，在辅助梳理逻辑和相关联任务中有极大帮助。<br><img src="http://img.yingming.li/image/jpg/201709/IMG_20170902_170222.jpg?imageslim" alt="Phoenix Project"></li>
+</ol>
+<p>《凤凰项目》沙盘演练需要所有人员的主动参与，积极响应，强调团队配合。需要在不同阶段权衡工作之间的关系，保证整个公司层面长期的权益。非常感谢老曹组织的这场活动，以及在活动中作为主持人对项目的介绍解说和帮助大家总结，以及感谢王大胡子助教的指导和DevOps实战分享。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/DevOps/" rel="tag"># DevOps</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2017/08/25/2017-08-25-Nodejs%E9%97%A8%E5%A4%96%E6%B1%89%E6%8E%92%E6%9F%A5%E5%86%85%E5%AD%98%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/" rel="prev" title="Nodejs门外汉排查内存占用问题">
+                  <i class="fa fa-chevron-left"></i> Nodejs门外汉排查内存占用问题
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2017/09/12/2017-09-12-Self-Management/" rel="next" title="Self Management">
+                  Self Management <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">粤ICP备17066012号 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 2015 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Liam Lee</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
